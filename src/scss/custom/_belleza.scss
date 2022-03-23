@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Belleza';
+    src: url('webfonts/Belleza-Regular.eot');
+    src: url('webfonts/Belleza-Regular.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Belleza-Regular.woff2') format('woff2'),
+         url('webfonts/Belleza-Regular.woff') format('woff'),
+         url('webfonts/Belleza-Regular.ttf')  format('truetype'),
+         url('webfonts/Belleza-Regular.svg#Belleza') format('svg');
+}
+
+@mixin belleza {
+    font-family: 'Belleza', serif;
+}

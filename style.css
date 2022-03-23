@@ -1,0 +1,104 @@
+/*
+Theme Name: Helderberg Wellness
+Theme URI: https://github.com/SecondSite/secondpress#readme
+Template: secondpress
+Author: SecondSite | Greg Schoeman
+Author URI: https://github.com/SecondSite/secondpress#readme/
+Description: Custom theme built for www.helderberg-wellness.co.za
+Tags: custom-background,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.0.1.1645181054
+Updated: 2022-02-18 12:44:14
+
+*/
+@font-face {
+    font-family: 'Belleza';
+    src: url('webfonts/Belleza-Regular.eot');
+    src: url('webfonts/Belleza-Regular.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/Belleza-Regular.woff2') format('woff2'),
+    url('webfonts/Belleza-Regular.woff') format('woff'),
+    url('webfonts/Belleza-Regular.ttf')  format('truetype'),
+    url('webfonts/Belleza-Regular.svg#Belleza') format('svg');
+}
+h1, h2 {
+    font-family: 'Belleza', serif;
+}
+h1 {
+    font-size: 3.5rem !important;
+}
+.entry-title {
+    display:none;
+}
+.nav-item {
+    min-width: 100px;
+    text-align: center;
+}
+.nav-active {
+    background-color: #333333;
+    color: #94d7af !important;
+    min-width: 100px;
+    text-align: center;
+}
+.hw-green {
+    color: #94d7af;
+}
+.hw-pink {
+    color: #fbb8e1;
+}
+.hw-brown {
+    color: #634d4d;
+}
+.hw-bg-green {
+    background-color: #94d7af;
+}
+.hw-bg-pink {
+    background-color: #fbb8e1;
+}
+.hw-bg-brown {
+    background: #634d4d;
+}
+a {
+    color: #634d4d;
+    text-decoration: none;
+}
+footer a {
+    color: #94d7af;
+    text-decoration: none;
+}
+.hide {
+    visibility: hidden;
+}
+.home .entry-title {
+    display: none;
+    visibility: hidden;
+}
+.home-section {
+    min-height:550px
+}
+.rozanne-img {
+    max-height:450px;
+}
+.entry-content {
+    margin:0;
+}
+
+.hr {
+    text-align: center;
+}
+.fa-hands-helping {
+    color: #8e8e8e;
+    opacity: 0.5;
+}
+.outer-line {
+    width: 40%;
+    border-bottom: 1px solid #94d7af;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.widget ol, .widget ul {
+    padding-left:0;
+    margin-left:0;
+}
+.widget ul li {
+    list-style: none;
+}
